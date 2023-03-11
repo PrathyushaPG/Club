@@ -1,0 +1,156 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main {
+    width: 80%;
+    height: 15%;
+    border: 2px solid rgb(49, 50, 49);
+    float: right;
+    margin: 0px;
+    background-color: rgb(241, 237, 240);
+}
+
+.foot {
+
+    width: 80%;
+    height: 10%;
+    border: 1px solid blue;
+    margin: 0px;
+    float: right
+}
+
+.container {
+    display: flex;
+    position: relative;
+}
+
+.sidebar {
+    background-color: #313342;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+}
+
+li {
+    list-style: none;
+    padding: 10%;
+
+}
+
+
+.menu {
+    color:white;
+    text-decoration: none;
+    font-size: 100%;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 30%;
+    text-transform: uppercase;
+}
+
+
+.first {
+    background-color: rgb(207, 200, 206);
+    width: 100%;
+    height: 10%;
+    /* border: 15px solid green; */
+    padding: 20px;
+    /* margin: 20px; */
+}
+
+  
+  
+
+
+
+.slider {
+
+    height: 400px;
+    width: 700px;
+    background: url(img1.png);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+
+}
+
+/*---------- SLIDE ANIMATION --------------*/
+
+
+@keyframes slide {
+    25% {
+        background: url(img1.png);
+    }
+
+    50% {
+        background: url(img4.png);
+    }
+
+    75% {
+        background: url(img2.jpg); 
+    }
+
+    100% {
+        background: url(img3.png);
+    }
+}
+
+.def {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px rgb(135, 134, 134);
+    float: none;
+}
+
+footer{
+    padding: 10vm; 
+    background-color: #101C32; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-start; 
+    flex-wrap:wrap;
+} 
+.blue {
+
+    width: 80%;
+    height: 10%;
+    border: 1px solid blue;
+    margin: 0px;
+    float: right
+}
+
+footer .footer-col{
+    padding-bottom:80px;
+} 
+footer h3{
+    color: rgb(241,240,245); 
+    font-weight: 600; 
+    padding-bottom: 10px;
+} 
+
+footer li{
+    list-style: none; 
+    color: #7b838a;
+    padding:10px 20px; 
+    font-size: 15px; 
+    cursor: pointer;
+} 
+
+footer li:hover{
+    color: rgb(241,240,245);
+} 
+
+footer p{
+    color: #7b838a;
+}
+
+
